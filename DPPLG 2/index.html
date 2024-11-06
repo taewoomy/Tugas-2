@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulir</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Formulir Anggota Perpustakaan</h2>
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Ketikan nama kamu">
+            <br>
+
+            <label for="nisn">NISN</label>
+            <input type="text" id="nisn" name="nisn" placeholder="Ketikan NISN kamu">
+            <br>
+            
+            <label for="kota_lahir">Kota Lahir</label>
+            <input type="text" id="kota_lahir" name="kota_lahir" placeholder="Ketikan kota lahir kamu">
+            <br>
+            
+            <label for="tanggal_lahir">Tanggal Lahir</label>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" placeholder="mm/dd/yyyy">
+            <br>
+            
+            <label>Gender</label>
+            <input type="radio" id="pria" name="gender" value="pria">
+            <label for="pria" style="display: inline;">Pria</label>
+            <input type="radio" id="wanita" name="gender" value="wanita">
+            <label for="wanita" style="display: inline;">Wanita</label>
+            <br>
+            
+            <label for="no_telepon">No Telepon</label>
+            <input type="text" id="no_telepon" name="no_telepon" placeholder="Ketikan no telepon kamu">
+            <br>
+            
+            <label>Genre Favorit</label>
+            <input type="checkbox" id="Romantis" name="genre_favorit" value="Romantis">
+            <label for="Romantis" style="display: inline;">Romantis</label>
+            <input type="checkbox" id="Aksi" name="genre_favorit" value="Aksi">
+            <label for="Aksi" style="display: inline;">Aksi</label>
+            <input type="checkbox" id="Fantasi" name="genre_favorit" value="Fantasi">
+            <label for="Fantasi" style="display: inline;">Fantasi</label>
+            <input type="checkbox" id="Kerajaan" name="genre_favorit" value="Kerajaan">
+            <label for="Kerajaan" style="display: inline;">Kerajaan</label>
+            <input type="checkbox" id="Komedi" name="genre_favorit" value="Komedi">
+            <label for="Komedi" style="display: inline;">Komedi</label>
+            <input type="checkbox" id="slice_of_life" name="genre_favorit" value="slice_of_life">
+            <label for="slice_of_life" style="display: inline;">Slice of life</label>
+            <br>
+            
+            <label for="agama">Agama</label>
+            <select id="agama" name="agama">
+                <option value="Pilih"></option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="lainnya">Khonghucu</option>
+            </select>
+            <br>
+            
+            <label for="alamat">Alamat</label>
+            <textarea id="alamat" name="alamat" rows="4" placeholder="Ketikan alamat kamu"></textarea>
+            <br>
+            
+            <div class="buttons">
+                <input type="reset" value="Clear">
+                <input type="submit" value="Send">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
