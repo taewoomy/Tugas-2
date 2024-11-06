@@ -1,0 +1,67 @@
+body {
+    background: url('gns.jpeg') no-repeat fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 95%;
+    margin: 0 auto;
+    height: 60vh;
+    border: solid 2px white;
+    border-style: dashed;
+}
+
+.box {
+    background-color: rgb(118, 103, 65);
+    text-align: center;
+    margin: 50px auto;
+    width: 65%;
+    height: 80vh;
+    border: solid 2px white;
+    border-style: dashed;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.4);
+    font-family: cursive;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 139, 0.8);
+    border: 2px dashed white;
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.4);
+}
+
+td, th, table {
+    border: solid 1px white;
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 10%;
+}
+
+td:hover, th:hover {
+    background-color: rgba(130, 222, 255, 0.893);
+}
+
+@media (max-width: 500px) {
+    .box {
+        overflow: scroll;
+    }
+}
+
+@media (max-height: 500px) {
+    .box {
+        overflow: scroll;
+    }
+}
+
+* {
+    color: rgb(248, 241, 248);
+    padding: 10px 10px;
+}
+
